@@ -16,10 +16,9 @@ $config = [
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
-//            "backend/site/login",
-//            "site/*",
-//            "frontend/*"
-            "*"
+            "backend/site/login",
+            "site/*",
+            "frontend/*"
         ]
     ],
     'components' => [
@@ -34,7 +33,7 @@ $config = [
                     'js' => []
                 ],
                 'dmstr\web\AdminLteAsset' => [  //adminlte模板静态资源
-                    'skin' => 'skin-red',
+                    'skin' => 'skin-yellow-light',
                 ],
             ],
         ],
@@ -80,7 +79,7 @@ $config = [
             'rules' => [
 
                 '/' => '/frontend/data/index',
-                '/backend' => 'backend/news/index',
+                '/backend' => 'backend/user/index',
                 '/admin' => 'admin/assignment/index',
                 '/newscontent/<id:\d+>' => '/frontend/data/newscontent',
                 '/<action:\w+>' => '/frontend/data/<action>',

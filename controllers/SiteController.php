@@ -82,7 +82,6 @@ class SiteController extends Controller
 //            var_dump(123);die;
             return $this->redirect('/backend/news/index');
         }
-
         $model->password = '';
         return $this->render('login', [
             'model' => $model,

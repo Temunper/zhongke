@@ -23,7 +23,7 @@ $fieldOptions2 = [
 <?=Html::jsFile('/js/jquery.js')?>
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>颗粒归仓</a>
+        <a href="#"><b>中工南科</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
